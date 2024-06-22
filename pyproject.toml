@@ -18,6 +18,6 @@ isort = "^5.13.2"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.flake8]
+[flake8]
 max-line-length = 160
 exclude = ["migrations/*","manage.py","*/settings.py"]
